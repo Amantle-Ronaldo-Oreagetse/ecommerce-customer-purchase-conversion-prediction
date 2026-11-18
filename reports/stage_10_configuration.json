@@ -1,0 +1,21 @@
+{
+    "stage": 10,
+    "purpose": "Model interpretation and error analysis",
+    "validation_records": 75659,
+    "validation_conversion_rate": 0.07492829669966561,
+    "validation_split": "Chronological 80/20 split of Stage 09 training data",
+    "models_analyzed": [
+        "Logistic Regression",
+        "Gradient Boosting"
+    ],
+    "default_threshold": 0.5,
+    "threshold_analysis_range": [
+        0.1,
+        0.9000000000000002
+    ],
+    "final_test_set_used": false,
+    "feature_importance_methods": {
+        "logistic_regression": "Absolute and signed model coefficients",
+        "gradient_boosting": "Tree-based feature importance"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "split_method": "Chronological",
+    "intended_train_percentage": 80,
+    "intended_test_percentage": 20,
+    "split_timestamp": "2014-11-28 23:32:00",
+    "core_categorical_features": [
+        "device_type",
+        "utm_source",
+        "utm_campaign",
+        "utm_content",
+        "http_referer"
+    ],
+    "core_binary_features": [
+        "is_repeat_session"
+    ],
+    "additional_time_features": [
+        "session_hour",
+        "session_day_of_week",
+        "session_month"
+    ],
+    "target": "converted",
+    "excluded_identifier_columns": [
+        "website_session_id",
+        "user_id",
+        "created_at"
+    ],
+    "categorical_encoding": "OneHotEncoder",
+    "numerical_scaling": "StandardScaler",
+    "missing_value_strategy": "Missing categorical values represented as an explicit category.",
+    "preprocessing_fit_policy": "Fit transformations on training data only."
+}

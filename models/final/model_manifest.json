@@ -1,0 +1,31 @@
+{
+    "model_file": "logistic_regression_final.joblib",
+    "model_type": "Logistic Regression",
+    "training_records": 378295,
+    "testing_records": 94576,
+    "training_start": "2012-03-19 08:04:00",
+    "training_end": "2014-11-28 23:31:00",
+    "testing_start": "2014-11-28 23:32:00",
+    "testing_end": "2015-03-19 07:59:00",
+    "training_conversion_rate": 0.06484357445908616,
+    "testing_conversion_rate": 0.08229360514295382,
+    "threshold": 0.5,
+    "test_metrics": {
+        "accuracy": 0.37752706817797327,
+        "precision": 0.10385844111535002,
+        "recall": 0.8604651162790697,
+        "f1_score": 0.18534560298899883,
+        "roc_auc": 0.6052173447063773,
+        "average_precision": 0.10515324912646513,
+        "brier_score": 0.24539464634478145
+    },
+    "features": [
+        "device_type",
+        "utm_source",
+        "utm_campaign",
+        "utm_content",
+        "http_referer",
+        "is_repeat_session"
+    ],
+    "target": "converted"
+}

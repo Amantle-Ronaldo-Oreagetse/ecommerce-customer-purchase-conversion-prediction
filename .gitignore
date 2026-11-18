@@ -1,0 +1,38 @@
+# Original datasets
+data/raw/
+
+# Processed datasets containing identifiers
+data/processed/initial_modeling_dataset.csv
+data/processed/feature_engineered_dataset.csv
+
+# Training and testing files containing session metadata
+data/processed/train/
+data/processed/test/
+
+# Notebook outputs and intermediate artifacts
+notebook_outputs/
+.ipynb_checkpoints/
+
+# Session-level prediction records
+reports/error_analysis/*error_records.csv
+reports/error_analysis/validation_predictions_with_metadata.csv
+reports/model_evaluation/*predictions.csv
+reports/model_evaluation/final/final_test_predictions.csv
+
+# Python environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files and logs
+*.log
+*.tmp

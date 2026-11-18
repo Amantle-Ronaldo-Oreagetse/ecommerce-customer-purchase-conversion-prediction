@@ -1,0 +1,4 @@
+dataset,total_sessions,non_converted,converted,conversion_rate_percent
+Full dataset,472871,440558,32313,6.833364702001179
+Training,378295,353765,24530,6.484357445908616
+Testing,94576,86793,7783,8.229360514295383

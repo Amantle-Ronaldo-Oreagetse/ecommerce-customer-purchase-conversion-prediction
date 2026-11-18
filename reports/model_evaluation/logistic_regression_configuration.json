@@ -1,0 +1,15 @@
+{
+    "algorithm": "Logistic Regression",
+    "class_weight": "balanced",
+    "max_iter": 1000,
+    "random_state": 42,
+    "categorical_encoding": "OneHotEncoder",
+    "unknown_categories": "ignore",
+    "rare_category_threshold": 10,
+    "numerical_scaling": "StandardScaler",
+    "validation_strategy": "Chronological 80/20 split",
+    "models": [
+        "logistic_regression_core",
+        "logistic_regression_extended"
+    ]
+}

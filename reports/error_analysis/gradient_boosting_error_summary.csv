@@ -1,0 +1,5 @@
+error_type,count
+False Positive,47217
+True Negative,22773
+True Positive,4887
+False Negative,782

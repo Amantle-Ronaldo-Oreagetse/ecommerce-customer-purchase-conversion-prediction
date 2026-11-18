@@ -1,0 +1,29 @@
+{
+    "target": {
+        "name": "converted",
+        "description": "Indicates whether a website session resulted in a purchase.",
+        "values": {
+            "0": "No purchase",
+            "1": "Purchase"
+        }
+    },
+    "core_features": {
+        "device_type": "Device used during the website session.",
+        "is_repeat_session": "Indicates whether the session belongs to a returning visitor.",
+        "utm_source": "Marketing source associated with the session.",
+        "utm_campaign": "Marketing campaign associated with the session.",
+        "utm_content": "Marketing advertisement content associated with the session.",
+        "http_referer": "Referring website associated with the session."
+    },
+    "additional_time_features": {
+        "session_hour": "Hour of the day when the session began.",
+        "session_day_of_week": "Day of the week when the session began. Monday = 0 and Sunday = 6.",
+        "session_month": "Calendar month when the session began."
+    },
+    "excluded_from_predictors": {
+        "website_session_id": "Unique session identifier.",
+        "user_id": "Unique user identifier.",
+        "created_at": "Original session timestamp, retained for chronological splitting and analysis."
+    },
+    "missing_value_strategy": "Missing categorical values are represented by an explicit Missing category."
+}

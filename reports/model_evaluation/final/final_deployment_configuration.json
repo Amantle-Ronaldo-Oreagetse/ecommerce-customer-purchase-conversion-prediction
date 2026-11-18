@@ -1,0 +1,37 @@
+{
+    "project": "E-commerce Customer Purchase Conversion Prediction",
+    "model_name": "Final Logistic Regression",
+    "model_file": "logistic_regression_final.joblib",
+    "target": "converted",
+    "features": [
+        "device_type",
+        "utm_source",
+        "utm_campaign",
+        "utm_content",
+        "http_referer",
+        "is_repeat_session"
+    ],
+    "categorical_features": [
+        "device_type",
+        "utm_source",
+        "utm_campaign",
+        "utm_content",
+        "http_referer"
+    ],
+    "numeric_features": [
+        "is_repeat_session"
+    ],
+    "classification_threshold": 0.5,
+    "preprocessing": {
+        "categorical_missing_values": "Most frequent imputation",
+        "categorical_encoding": "OneHotEncoder with handle_unknown='ignore' and min_frequency=10",
+        "numeric_missing_values": "Median imputation",
+        "numeric_scaling": "StandardScaler"
+    },
+    "classifier": {
+        "algorithm": "LogisticRegression",
+        "max_iter": 1000,
+        "class_weight": "balanced",
+        "random_state": 42
+    }
+}

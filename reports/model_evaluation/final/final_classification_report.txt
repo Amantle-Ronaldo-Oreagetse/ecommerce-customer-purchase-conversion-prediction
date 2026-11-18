@@ -1,0 +1,24 @@
+FINAL LOGISTIC REGRESSION EVALUATION
+
+              precision    recall  f1-score   support
+
+ No Purchase       0.96      0.33      0.50     86793
+    Purchase       0.10      0.86      0.19      7783
+
+    accuracy                           0.38     94576
+   macro avg       0.53      0.60      0.34     94576
+weighted avg       0.89      0.38      0.47     94576
+
+
+CONFUSION MATRIX
+[[29008 57785]
+ [ 1086  6697]]
+
+ADDITIONAL METRICS
+accuracy: 0.377527
+precision: 0.103858
+recall: 0.860465
+f1_score: 0.185346
+roc_auc: 0.605217
+average_precision: 0.105153
+brier_score: 0.245395
