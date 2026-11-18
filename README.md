@@ -218,7 +218,7 @@ Potential future improvements include:
 - Testing the model on more recent and independently collected data.
 
 ## 12. Project Structure
-
+```text
 Customer_Purchase_Conversion_Prediction/
 │
 ├── data/
@@ -254,7 +254,7 @@ Customer_Purchase_Conversion_Prediction/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
-
+```
 Original datasets and identifier-containing intermediate files are excluded from version control.
 
 ## 13. Technologies Used
