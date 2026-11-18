@@ -45,6 +45,7 @@ The target was constructed by matching website sessions with order records using
 ### Target Distribution
 
 | Outcome | Sessions | Percentage |
+|---|---:|---:|
 | No purchase | 440,558 | 93.17% |
 | Purchase | 32,313 | 6.83% |
 | **Total** | **472,871** | **100%** |
@@ -100,6 +101,7 @@ The final public modelling dataset contains the six core features and the target
 A chronological 80/20 train-test split was used to better reflect the practical scenario of predicting future website conversions using historical data.
 
 | Dataset | Sessions |
+|---|---:|
 | Training | 378,295 |
 | Testing | 94,576 |
 | **Total** | **472,871** |
@@ -142,6 +144,7 @@ The final Logistic Regression model was refitted using the complete training dat
 ### Test Performance
 
 | Metric | Result |
+|---|---:|
 | Accuracy | 37.75% |
 | Precision | 10.39% |
 | Recall | 86.05% |
@@ -153,6 +156,7 @@ The final Logistic Regression model was refitted using the complete training dat
 ### Confusion Matrix
 
 | | Predicted No Purchase | Predicted Purchase |
+|---|---:|---:|
 | Actual No Purchase | 29,008 | 57,785 |
 | Actual Purchase | 1,086 | 6,697 |
 
@@ -218,6 +222,7 @@ Potential future improvements include:
 - Testing the model on more recent and independently collected data.
 
 ## 12. Project Structure
+
 ```text
 Customer_Purchase_Conversion_Prediction/
 │
@@ -255,6 +260,7 @@ Customer_Purchase_Conversion_Prediction/
 ├── README.md
 └── requirements.txt
 ```
+
 Original datasets and identifier-containing intermediate files are excluded from version control.
 
 ## 13. Technologies Used
